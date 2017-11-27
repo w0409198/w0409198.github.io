@@ -1,0 +1,21 @@
+html {
+	text-align: center;
+	padding-top: 50px;
+	color: #ffffff;
+}
+
+body {
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#selfie {
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px #999; +
+}
+
+h1 {
+	font-family: verdana;
+	margin-top: 50px;
+}
