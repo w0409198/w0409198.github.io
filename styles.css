@@ -25,25 +25,6 @@ footer{
 	text-align: center;
 }
 
-#goals_left {
-	float: left;
-	width: 49%;
-	font-family: Verdana;
-	border-size:2px;
-	border-style: solid;
-	border-color: #ffffff;
-	padding-right: 2px;
-}
-#goals_right {
-	float: left;
-	width: 49%;
-	font-family: Verdana;
-	border-size:2px;
-	border-style: solid;
-	border-color: #ffffff;
-	padding-left: 2px;
-}
-
 #social_icons {
 	text-align: center;
 }
@@ -71,9 +52,9 @@ h2 {
 
 main {
 	font-family: verdana;
-	margin-left: 25%;
-	min-width: 50%;
-	max-width: 50%;
+	margin-left: 12.5%;
+	min-width: 75%;
+	max-width: 75%;
 }
 
 nav ul {
