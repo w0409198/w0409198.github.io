@@ -15,9 +15,8 @@ function show_short() {
 
 function show_long() {
     var target_element = document.getElementById("goals_text");
-    target_element.innerHTML = '<ol>' +
-        '<li>1</li>' +
-        '<li>2</li>' +
+    target_element.innerHTML = '<ol><li>Bridge the cap between property development / management and technology into one product / application. </li>' +
+        '<li>dsfsdfs</li>' +
         '<li>3</li>' +
         '<li>4</li>' +
         '<li>5</li>' +
