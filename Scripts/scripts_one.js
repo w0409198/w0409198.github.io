@@ -4,7 +4,8 @@ function show_web_portfolio() {
     var target_element_1 = document.getElementById("work_samples_content");
     target_element_1.innerHTML = 'Throughout my first semester Web Development class, we studied a wide range of topics, from the basics of setting the title tag, to creating a responsive design. As the final' +
         ' project for this class we had to create our portfolio website, which, is the website you are viewing this on.' +
-        '<p><img src="/images/work_samples/code_snippet_one.png" align="left" border="2px white"> </p>' +
+        '<p><img src="/images/work_samples/code_snippet_one.png" align="left" border="2px white">This code snippet to the left is the behind the scenes of the text on this page.' +
+        ' All text on this page is loaded via JavaScript!</p>' +
         '<p><button onClick="history.go(0)" class="button">Go Back</button></p>';
 
     var target_element_2 = document.getElementById("work_samples_head");
