@@ -29,6 +29,12 @@ footer{
 	text-align: center;
 }
 
+#work_sample {
+	width: 400px;
+	height: 200px;
+	border: 2px solid white;
+}
+
 .button {
 	background-color: #e7e7e7;
 	border: none;
