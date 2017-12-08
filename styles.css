@@ -36,6 +36,15 @@ footer{
 	margin: 20px;
 }
 
+@media screen and (max-width: 300px) {
+	#work_sample {
+		width: 250px;
+		height: 200px;
+		border: 2px solid #ffffff;
+		margin: 20px;
+	}
+}
+
 .button {
 	background-color: #e7e7e7;
 	border: none;
