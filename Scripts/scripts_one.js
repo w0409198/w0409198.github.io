@@ -10,9 +10,9 @@ function show_web_portfolio() {
         'I decided to implement Javascript into my website initally because I had just learned Client Side programming, and wanted to implement it.' +
         ' However it grew on me that I could do some interesting things, like change what is displayed on a page with the click of a button! </p>' +
         '<br><br>' +
-        '<p><img src="images/work_samples/Full_Site.png" align="right" id="work_sample"> </p>' +
+        '<p><img src="images/work_samples/Full_Site.png" align="right" id="work_sample"><br><br><br>' +
         'Of course during the building of this website, I had to keep in mind the overall asthetic appeal of the site. I found colours that go well with' +
-        ' each other' +
+        ' each other</p>' +
         '<p>Finding a free to use background picture was also a large barrier. Though there are many free to use pictures on the internet, not all are the best looking' +
         ' Therefore I had to do a bit of detailed searching, however I eneded finding a nice one in the end.</p>' +
         '<p><button onClick="history.go(0)" class="button">Go Back</button></p>';
