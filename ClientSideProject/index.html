@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+    <section id="left">
+        Choose a country from the list:
+        <select id="countries" onchange="show(this)">
+            <option>-- Select --</option>
+        </select>
+    </section>
+
+    <section id="right">
+        Country Info
+
+        <section id="country_name">
+
+        </section>
+
+        <p id="flag">
+            <img src="flags/canada.png" id="default_flag">
+        </p>
+
+        <p>
+            <label>Population</label><br>
+            <input type="text" id="population">
+
+            </input>
+        </p>
+        <p><br>
+            <label>Area In</label><br>
+            <select id="area_options">
+                <option id="sq_mi">Sq. Miles</option>
+                <option id="sq_km">Sq. KM</option>
+            </select><br>
+            <input type="text" id="Area">
+
+            </input>
+        </p>
+        <fieldset>
+        <p id="pop_area">
+            <form id="pop_area_form">
+                <label>Population Density</label><br>
+                <input type="radio" id="per_sq_mile" name="pop_density" checked> Per Square Mile<br>
+                <input type="radio" id="per_sq_km" name="pop_density"> Per Square KM<br>
+            </form>
+            <input type="text" id="pop_dens_print">
+        </fieldset>
+        <p>
+            Percentage of World Population<br>
+            <input type="text" id="percent_pop">
+        </p>
+        <p>
+            <button id="wiki">Wiki Country</button>
+        </p>
+    </section>
+<script src="scripts.js"></script>
+</body>
+</html>

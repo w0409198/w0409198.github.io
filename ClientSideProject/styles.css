@@ -1,0 +1,20 @@
+body {
+    background-color: #FDE6B4;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#left {
+    width: 15%;
+    float: left;
+    margin-right: 10px;
+}
+
+#right {
+    float: left;
+    padding-left: 20px;
+}
+ #default_flag {
+     visibility: hidden;
+ }

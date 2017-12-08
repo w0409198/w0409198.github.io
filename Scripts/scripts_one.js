@@ -25,8 +25,19 @@ function show_web_portfolio() {
 
 function show_prog_clientside() {
     var target_element_1 = document.getElementById("work_samples_content");
-    target_element_1.innerHTML = 'NEW INNEr TEXT TESTETSTET' +
-        '<p><button onClick="history.go(0)" class="button">Go Back</button></p>';
+    target_element_1.innerHTML = 'Throughout my first semester Logic and Programming course, I expanded my knowledge ten fold. Coming into that course I had no knowledge' +
+        ' on what Javascript was / is. Now leaving first semester, I extremely comfortable to sit down, and code, and feel confident with my work.' +
+        '<p><img src="images/work_samples/code_snippet_two.png" align="left" id="work_sample">This code snippet you can see to the left, is the Javscript code running my project. Ths first' +
+        ' bit that you are looking at is the behind the scenes of reading from a .JSON file and organizing them into a drop down list, that is all the countries.' +
+        ' Further on, I do math on some numbers to calculate the population density etc.</p>' +
+        '<br><br>' +
+        '<p><img src="images/work_samples/Java_Full_Site.png" align="right" id="work_sample"><br><br><br>' +
+        'On the right, I have displayed a picture of the project running in the browser. Upon selection of a country, it updates the name at the top, and then filles' +
+        ' out all the information in the site, IE. Population, Population Density and percentage of world population. </p>' +
+        '<p>There is also a Wiki button, which when completed, will take the user directly to that countries Wikipedia page. This final step is going to take some work, especially' +
+        ' with the link, and variables. I invite you to try out the live demo of my project.</p>' +
+        '<p><button onClick="history.go(0)" class="button">Go Back</button></p>' +
+        '<p><a href="ClientSideProject" class="button">Live Demo (Work In Progress)</a></p>';
 
     var target_element_2 = document.getElementById("work_samples_head");
     target_element_2.innerHTML = 'JavaScript / HTML Client Side Application';
